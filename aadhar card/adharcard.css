@@ -1,0 +1,231 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.border{
+    width: 390px;
+    height: 1070px;
+    border: black 2px solid;
+    float: left;
+}
+
+.img00{
+    width: 90px;
+    height: 70px;
+}
+
+.img01{
+    width: 90px;
+    height: 70px;
+    margin-left: 180px;
+}
+
+.org{
+    height: 41px;
+    background-color: rgb(250 155 73);
+    text-align: center;
+}
+
+.ind{
+    color: red;
+    font-size: 25px;
+    font-weight: 800;
+    height: 10px;
+    line-height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.white{
+    height: 41px;
+    background-color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 28px;
+
+}
+
+
+.green{
+    height: 41px;
+    background-color: rgb(86 164 86);
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+
+}
+
+.enroll{
+    text-align: center;
+    padding-bottom: 15px;
+    line-height: 50px;
+}
+
+.uni{
+    color: red;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: -webkit-pictograph;
+}
+
+.int{
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+.bar{
+    width: 250px;
+    height: 36px;
+    margin-left: 25px;
+}
+
+.in{
+    margin-left: 35px;
+}
+
+.cod{
+    margin-left: 80px;
+}
+
+.qr{
+    width: 120px;
+    height: 110px;
+}
+
+.adr{
+    text-align: center;
+    font-size: larger;
+}
+
+span{
+    color: red;
+}
+
+.adrno{
+    font-size: 25px;
+    text-align: center;
+}
+
+.hed03{
+    text-align: center;
+    font-size: 18px;
+    border-bottom: red 2px solid;
+    margin-inline: 35px;
+}
+
+.line{
+    width: 50%;
+    height: 35px;
+    float: left;
+}
+
+.argg{
+background-color:aqua;
+margin-top: 15px;
+
+}
+
+.photo01{
+    width: 100px;
+    margin-left: 22px;
+    float: left;
+}
+
+.info{
+    float: left;
+    margin-left: 8px;
+    font-size: small;
+}
+
+.qrpo{
+    float: left;
+    text-align: end;
+    margin-top: 40px;
+}
+
+.qr01{
+width: 100px;
+height: 90px;
+}
+
+.hed02{
+    margin-top: 6px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.img02{
+    width: 100%;
+    height: 72px
+}
+
+.suchna{
+    margin-top: 25px;
+    margin-bottom: 20px;
+text-align: center;
+}
+
+.mar{
+    margin-bottom: 70px;
+}
+
+.info03{
+    margin-top:25px ;
+    border:black 2px solid;
+    margin: 10px;
+    font-size: medium;
+}
+
+.lin{
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.link{
+    padding-bottom: 22px;
+}
+
+
+.ll{
+    padding-bottom: 22px;
+    font-size: larger;
+}
+
+.add{
+    padding-top: 20px;
+    font-size: small;
+}
+
+.add01{
+    width: 50%;
+    float: left;
+}
+.add02{
+    width: 50%;
+    float: left;
+}
+
+#fo{
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+.fon{
+    text-align: center;
+}
+
+.side00{
+    padding-top: 8px;
+    font-size: xx-small;
+    padding-inline: 15px;
+    float: left;
+}

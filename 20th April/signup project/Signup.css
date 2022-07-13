@@ -1,0 +1,50 @@
+
+
+  #tab01{
+    border:"1px"; 
+    cellspacing:"0px";
+     cellpadding:"10px";
+     width: 60%; 
+  }
+
+  .info{
+    background-color: aliceblue;
+  }
+
+  .info01{
+    background-color: rgb(135, 169, 199);
+  }
+
+  .h1
+  {
+    background-color: rgb(54, 57, 61);
+     color: azure;
+  }
+
+  #sub{
+    background-color: rgb(10, 236, 21);
+   
+  }
+
+  #can{
+    background-color: rgb(240, 29, 29);
+  
+  }
+  .bbtn{
+    padding-right: 80px;
+    padding-left: 80px;
+     padding-top: 10px;
+      padding-bottom: 10px;
+      height: 60px;
+  }
+
+  .tab02{
+    background-color: aliceblue;
+     padding: 15px;
+  }
+
+  #vrfy{
+    color: rgb(210, 224, 220);
+    background-color:rgb(70, 133, 216) ;
+    width: 90px;
+  }

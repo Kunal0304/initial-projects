@@ -1,0 +1,28 @@
+    .table01{
+        border:"1px";
+         color: rgb(104, 238, 193);
+         background-color: rgb(29, 90, 148);
+         width: 30%;
+
+    }
+#h1{
+    color: rgb(248, 246, 242);
+    background-color: rgb(189, 118, 76);
+    text-align: center;
+}
+.btn{
+    color: rgb(87, 27, 199);
+    background-color: rgb(101, 159, 226);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.forget{
+    color: brown;
+    background-color: yellow;
+    /* text-align: center; */
+    
+}

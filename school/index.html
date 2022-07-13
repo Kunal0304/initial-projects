@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+                                                        /* header css */
+        *
+        {
+          margin: 0px;
+          padding: 0px;
+        }
+    .header
+    {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .logo
+    {
+       width: 15%;
+       height: 150px;
+       float: left;
+    }
+    .logo-school{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sname
+    {
+        width: 85%;
+       height: 80px;
+        float: left;
+    }
+    
+    .shname{
+        font-size: 70px;
+        text-align: center;
+        color: rgb(41, 113, 223) ;
+    }
+                                                        /* header css end */
+     
+                                                        /* start school mwindow */
+                                                        
+       .img{
+        width: 100%;
+        height: 79%;
+    background-image:url('assets/build05.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .video{
+        position: fixed;
+        bottom: 80px;
+        right: 60px;
+    }
+                                                    /* start school nav bar   */
+
+    #menu{
+         position: sticky; 
+         top: 20px; 
+        padding-top: 15px;
+        margin-left: 330px;
+        
+    
+    }
+    #menu ul
+    {
+        list-style: none;
+        
+    }
+    
+    #menu ul li
+    {
+        background-color: rgb(48, 44, 44);
+        width: 180px;
+        height: 38px;
+        text-align: center;
+        line-height: 35px;
+        float: left;
+        border-radius: 10px;
+    }
+    #menu ul li a
+    {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #menu ul li:hover
+    {
+        background-color: rgb(41, 113, 223) ;
+        text-align: center;
+        
+    }
+    
+    #menu ul ul
+    {
+        display: none;
+    }
+    
+    #menu ul li:hover>ul
+    {
+        display: block;
+    }
+    
+    #menu ul ul ul
+    {
+        margin-left: 120px;
+        margin-top: -18px;
+    }
+                                                    /*  end school nav bar   */
+
+                                                    /* start table  */
+
+
+        #tab01{
+            
+             width: 24%;
+             height: 65%;
+             border-radius: 6px;
+             background-color: rgb(238, 235, 231);
+             padding: 8px;
+             position: absolute;
+             bottom: 35px;
+             left: 40px;  
+          }
+
+          .input{
+              width: 180px;
+              height: 30px;  
+          }
+            
+          .h1
+          {
+            background-color: rgb(54, 57, 61);
+             color: azure;
+          }
+
+        
+                                                    /* end table  */
+
+    </style>
+    <title>IVM School</title>
+
+</head>
+<body>
+  <div>
+    <div class="header">
+        <div class="logo">
+            <img class="logo-school" src="assets/school.jpg" alt="" srcset="">
+        </div>
+        <div class="sname">
+            <p class="shname">Indira Vidhiya Mandir H.H. School</p>
+        </div>
+
+                                                            <!-- hader End -->
+                                                      <!-- start school main window -->
+
+ 
+                                                            <!-- start nav bar  -->
+    <div id="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+          <li><a href="gallary.html">GALLERY</a></li>
+          <li><a href="academics.html">ACADEMICS</a></li>
+          <li><a href="faculty.html">FACULTY</a></li>
+          <li><a href="contact.html">CONTACTS</a></li>
+        </ul>
+      </div> 
+    </div>
+    </div>
+
+    <div class="img">
+          <table style="border:1px; 
+          cellspacing =0px;" id="tab01">
+          
+          <tr >
+              <td colspan="2" align="center" class="h1" ><h1>INQUIRY FORM</h1></td></tr>
+              
+               <form >
+                 <tr>
+                 <td > First Name:- <br><input type="text" placeholder="First Name" required="" class="input" ></td>
+                 <td > Last Name:- <br> <input type="text" placeholder="Last Name" required="" class="input" ></td>
+              </tr>
+              <tr>
+                <td> Phone:- <br><input  type="number" placeholder="Mobile no." class="input"></td>
+                <td> Email:- <br><input type="email" placeholder="Enter email" required="" class="input"></td>
+                </tr>
+                
+                <tr>
+                <td> Date of Birth:- <br><input type="date" class="input"></td>
+                <td> City:- <br><select class="input">
+                  <option selected aria-checked="undefined">Select City</option>
+                  <option>Indore</option>
+                  <option>Pune</option>
+                  <option>Delhi</option>
+                  <option>Ujjain</option>
+            </select></td>
+              </tr>
+              <tr>
+                  <td> Class:- <br><input type="number" placeholder=" In Number" class="input"></td>
+                  
+              <td> Gender:- <br>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other</td>
+                  </tr>
+              <tr class="info">
+              
+                
+               </tr>
+                  
+                  <tr class="info01">
+                 <td align="center"> <input type="submit" style=padding:10px ></td>
+                 <td align="center"> <input type="submit" value="Cancel" style=padding:10px></td>
+          
+              </form>
+          </tr>
+          
+          </table>
+
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/t7UBI7keiwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      </div>
+                                                              <!-- end vav bar -->
+    </div>  
+  </div>         
+                                                      <!-- end school main window -->
+
+</body>
+</html>

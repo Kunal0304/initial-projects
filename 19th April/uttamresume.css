@@ -1,0 +1,31 @@
+
+.hed03{
+    color:rgb(85, 81, 92);
+    background-color: bisque;
+    padding: 8px;
+}
+.uppr{
+    background-color: rgb(86, 86, 114);
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.pic{
+    float:right;
+     width: 180px;
+     padding-right: 15px;
+     padding-top: 25px;
+}
+.fnt{
+border: 2px solid;
+margin-left: 160px;
+margin-right: 160px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.shed{
+background-color: antiquewhite;
+
+}

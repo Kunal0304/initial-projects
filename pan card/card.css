@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+span{
+    font-size: small;
+}
+
+.size{
+    width: 35%;
+    height: 48%;
+    border-radius: 10PX;
+background-image: url(pan_card.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+margin-top: 100px;
+}
+.pic01{
+    text-align: start;
+    margin-left: 10px;
+}
+
+.pic{
+    width: 100px; ;
+    height: 88px;
+    margin-top: 90px;
+
+}
+
+.id{
+    float: left;
+    color: rgb(31, 30, 30);
+    margin-top: 90px;
+    position: absolute;
+    left: 615px;
+
+}
+
+.qr{
+    float: left;
+}
+
+.qr01{
+    margin-top: 90px;
+    position: relative;
+    left: 195px;
+    width: 160px;
+    height: 145px
+}
+
+.clrs{
+    width: 200px;
+    height: 28px;
+    position: relative;
+    top: 277px;
+    right: 30px;
+    background-color: aqua;
+}
+.qq{
+    position: relative;
+    top: 278px;
+    right: 185px;
+    font-size: x-small;
+}
+
+.set{
+    width: 218px;
+    position: absolute;
+    top: 347px;
+    right: 799px;
+}
+
+.info{
+    text-align: start;
+    position: relative;
+    left: 11px;
+}
+
+.sin{
+    width: 173px;
+    height: 32px;
+    position: relative;
+    left: 195px;
+    top: 41px;
+    background-color: rgb(246 252 252);
+}

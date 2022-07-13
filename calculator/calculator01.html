@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin-top: 60px;
+            background: linear-gradient(#f07979, #747eec,rgb(171, 236, 171));
+        }
+        
+        #sum{
+            width: 300px;
+            height: 100px;
+            font-size: xx-large;
+            border-radius: 12px 12px 0 0;
+            font-weight: 700;
+            background: linear-gradient(#6487e6, #91e5a3);
+            color: linear-gradient(#9198e5, #646464);
+
+        }
+        #clr{
+
+            width: 300px;
+            border-radius: 0 0 12px 12px;
+
+        }
+    input{
+
+        width: 72px;
+        height: 72px;
+        font-size: x-large;
+  background-image: radial-gradient(circle, rgb(248, 164, 164), rgb(128, 184, 236), rgb(158, 241, 158));
+        }
+
+        #fir{
+            border: 80px;
+            
+        }
+
+     </style>
+</head>
+<body>
+    <div id="fir">
+    <center>
+    <input type="text" id="sum"><br>
+    <div id=ku>
+    <input type="submit" value="7" onclick="sum.value+='7'">
+    <input type="submit" value="8" onclick="sum.value+='8'">
+    <input type="submit" value="9" onclick="sum.value+='9'">
+    <input type="submit" value="+" onclick="sum.value+='+'">
+    <br>
+    <input type="submit" value="1" onclick="sum.value+='1'">
+    <input type="submit" value="2" onclick="sum.value+='2'">
+    <input type="submit" value="3" onclick="sum.value+='3'">
+    <input type="submit" value="-" onclick="sum.value+='-'">
+    <br>
+    <input type="submit" value="4" onclick="sum.value+='4'">
+    <input type="submit" value="5" onclick="sum.value+='5'">
+    <input type="submit" value="6" onclick="sum.value+='6'">
+    <input type="submit" value="*" onclick="sum.value+='*'">
+    <br>
+    <input type="submit" value="." onclick="sum.value+='.'">
+    <input type="submit" value="0" onclick="sum.value+='0'">
+    <input type="submit" value="/" onclick="sum.value+='/'">
+    <input type="submit" value="=" onclick="sum.value=eval(sum.value)"><br>
+    <input id="clr" type="submit" value="Clear" onclick="sum.value=''">
+
+    </div>
+</center>
+</div>
+</body>
+</html>
