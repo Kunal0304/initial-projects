@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="index.js"></script>
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header class="bg-success">
+        <h1 style="text-align: center; font-weight: 800;">TODO list</h1>
+    </header>
+
+    <div class="container text-center">
+        <h2>Add your important notes</h2>
+
+        <form id="addForm">
+            <div class="col-12" style="height: 120px;">
+                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="form-control" autocomplete="off" id="item">
+                   <br> <input type="submit" class="btn btn-dark" id="submit" value="Submit" disabled>
+            </div>
+        </form>
+
+        <h3 class="mt-4">Tasks</h3>
+
+    </div>
+        <form id="addForm">
+            <ul class="list-group" id="items"></ul>
+        </form>
+</body>
+
+</html>
