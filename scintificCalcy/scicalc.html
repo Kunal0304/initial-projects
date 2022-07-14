@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <scrip>
+
+    </script>
+</head>
+<body>
+   
+    <div class="container" >  
+         <form name="calcy">
+             <input type="text" value="Calculator" name="" id="app_name" readonly>
+            <input class="display_field2" id="operations" type="text" name="diplay2" readonly>
+            <input class="display_field1" id="Result" type="text" name="diplay" readonly>
+            
+
+            <div class="row2">
+
+            <input class="oper"type="button" value="&#960"onclick="Result.value+=Math.PI" >
+
+            <input class="oper" id="clearbutton"  type="button" value="CE" onclick="operations.value=Result.value='' " >  
+            
+            <input class="oper"type="button"  value="&#8656;"onclick="Result.value=deleteChar(Result.value);">
+      
+            </div>
+
+
+            <div class="row1">
+               
+                <input class="oper"type="button" value="e" onclick="Resultvalue+=Math.E" >
+                <input class="oper"type="button" value="sin" onclick="Result.value=Math.sin(Result.value);">       
+                <input class="oper"type="button" value="cos" onclick="Result.value=Math.cos(Result.value);">      
+                <input class="oper"type="button" value="tan" onclick="Result.value=Math.tan(Result.value);">
+                <input class="oper"type="button" value="&radic;"onclick="Result.value=sqrt(Result.value);" >
+               
+            </div>
+
+            <div class="row1">
+               
+                <input class="oper"type="button" value="&lceil;x&rceil;" onclick="Result.value= Math.ceil(Result.value);">
+                <input class="oper"type="button" value="1/x"onclick="Result.value=oneby(Result.value);" >
+                <input class="oper"type="button" value="x&sup2;"onclick="Result.value=sqr(Result.value);" >
+                <input class="oper"type="button" value="exp" onclick="Result.value= Math.exp(Result.value);"> 
+                <input class="oper"type="button" value="mod"onclick="Result.value+='%'" >
+            </div>
+
+
+          <div class="row1">
+
+           <input class="oper"type="button" value="&lfloor;x&rfloor;" onclick="Result.value= Math.floor(Result.value);">  
+            <input class="oper"type="button" value="(" onclick="Result.value+='('" >
+           <input class="oper"type="button" value=")" onclick="Result.value+=')'" >
+           <input class="oper"type="button" value="n!" onclick="Result.value= factorial(Result.value);">  
+           <input class="oper"type="button" value="/" onclick="Result.value+='/'" >
+      
+         </div>
+
+            <div class="row1">
+
+            <input class="oper" type="button" value=% onclick="Result.value=eval(Result.value)/100">
+             <input class="main_num" type="button" value="7" onclick="Result.value+='7'" >
+             <input class="main_num"type="button" value="8" onclick="Result.value+='8'" >
+             <input class="main_num"type="button" value="9" onclick="Result.value+='9'" >
+             <input class="oper"type="button" value="*" onclick="Result.value +='*'" >
+            </div>
+
+        <div class="row1">
+            
+            <input class="oper"type="button" value="^" onclick="Result.value+= '^'" >
+            <input class="main_num"type="button" value="4" onclick="Result.value+='4'" >
+            <input class="main_num"type="button" value="5" onclick="Result.value+='5'" >
+            <input class="main_num"type="button" value="6" onclick="Result.value+='6'" >
+            <input class="oper"type="button" value="-" onclick="Result.value+='-'" >
+           
+        </div>
+
+            <div class="row1">
+                <input class="oper"type="button" value="log"onclick="Result.value= Math.log10(Result.value);" >
+                <input class="main_num"type="button" value="1" onclick="Result.value+='1'" >
+                <input class="main_num"type="button" value="2" onclick="Result.value+='2'" >
+                <input class="main_num"type="button" value="3" onclick="Result.value+='3'" >
+                <input class="oper" type="button" value="+" onclick="Result.value+='+'" >
+            </div>
+
+            <div class="row1">
+                <input class="oper"type="button" value="In" onclick="Result.value= Math.log(Result.value);">  
+                <input class="main_num"type="button" value="&#177" onclick="Result.value= changeSign(Result.value);"> 
+                <input class="main_num"type="button" value="0" onclick="Result.value+='0'" >
+                <input class="main_num" type="button" value="." onclick="Result.value+='.'" >
+                <input class="oper" type="button" value="=" onclick="Result.value=expo(operations.value+=Result.value);" >
+
+            </div>
+           
+    </form>
+</div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
